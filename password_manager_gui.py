@@ -229,3 +229,5 @@ def setup_2fa(self, secret, username):
     except Exception as e:
         messagebox.showerror("Error", f"Failed to generate QR code: {str(e)}")
         self.finish_setup()
+
+        #TESTING PURPOSES ONLY - REMOVE IN PRODUCTION
